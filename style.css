@@ -4,33 +4,31 @@
   margin: auto;
   text-align: center;
   width: 60%;
-  border: 10px solid #4CAF50;
+  border: 10px solid #b3d1ff;
   padding: 15px;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: #585858;
 }
 h1 {
-  color: black;
+  color: white;
   text-align: center;
 }
 button {
-  background-color: #4CAF50; /* Green */
   border: none;
-  color: white;
   padding: 15px 32px;
   margin: 25px 15px 50px 15px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: bold;
+}
+
+button:hover{
+  background-color: #b3d1ff;
 }
 
 .score {
-  background-color: #4CAF50; /* Green */
+  background-color: #b3d1ff;
   border: none;
   color: white;
   padding: 15px 32px 15px 32px;
@@ -43,4 +41,14 @@ button {
   margin: auto;
   width: 300px;
   height: 300px;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}
+
+div {
+  color: white;
+  font-weight: bold;
 }
